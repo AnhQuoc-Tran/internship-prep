@@ -1,0 +1,1 @@
+console.log("Internship prep project initialized");
