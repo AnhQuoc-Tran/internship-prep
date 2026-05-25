@@ -166,6 +166,34 @@ button {
   margin-bottom: 15px;
   color: #38bdf8;
 }
+.metrics {
+  padding: 60px;
+}
+
+.metrics h2 {
+  text-align: center;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.metric-card {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.metric-card h3 {
+  font-size: 42px;
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.metric-card p {
+  color: #cbd5e1;
+}
 
 .pricing {
   padding: 60px;
@@ -205,34 +233,7 @@ button {
   margin-top: 25px;
 }
 
-.metrics {
-  padding: 60px;
-}
 
-.metrics h2 {
-  text-align: center;
-}
-
-.metrics-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 25px;
-}
-
-.metric-card {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.metric-card h3 {
-  font-size: 42px;
-  color: #38bdf8;
-  margin-bottom: 10px;
-}
-
-.metric-card p {
-  color: #cbd5e1;
-}
 
 .contact {
   padding: 80px 60px;
