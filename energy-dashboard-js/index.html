@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Energy Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <main class="dashboard">
+    <section class="header">
+      <h1>Energy Dashboard</h1>
+      <p>Live building energy usage overview</p>
+    </section>
+
+    <section class="summary">
+      <div class="summary-card">
+        <h2 id="total-usage">0 kWh</h2>
+        <p>Total Usage</p>
+      </div>
+
+      <div class="summary-card">
+        <h2 id="device-count">0</h2>
+        <p>Devices Monitored</p>
+      </div>
+
+      <div class="summary-card">
+        <h2 id="alert-count">0</h2>
+        <p>Alerts</p>
+      </div>
+    </section>
+
+    <section class="controls">
+      <button id="load-data-button">Load Energy Data</button>
+    </section>
+
+    <section>
+      <h2>Devices</h2>
+      <div id="device-list" class="device-list"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+[
+  {
+    "building": "Irvine Office",
+    "device": "HVAC Unit A",
+    "usageKwh": 145,
+    "status": "Normal"
+  },
+  {
+    "building": "Irvine Office",
+    "device": "Lighting System",
+    "usageKwh": 82,
+    "status": "Normal"
+  },
+  {
+    "building": "Warehouse",
+    "device": "Main Panel",
+    "usageKwh": 231,
+    "status": "High Usage"
+  },
+  {
+    "building": "Lab",
+    "device": "Battery System",
+    "usageKwh": 64,
+    "status": "Normal"
+  }
+]
